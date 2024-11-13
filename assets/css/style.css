@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/Linear3-Grain2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.drop-shadow {
+    filter: drop-shadow(2px 2px 2px #222)
+}
+
+.container {
+    height: 780px;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+    h1 {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    span {
+        font-size: 1.7rem;
+        margin-bottom: 1rem;
+    }
+
+    img {
+        height: 350px;
+        cursor: pointer;
+        padding: 10px;
+    }
+
+}
