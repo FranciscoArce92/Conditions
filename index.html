@@ -7,11 +7,48 @@
     <title>Desafío 2 - Condiciones</title>
 </head>
 <body>
-    <div class="container">
-        <h1 class="drop-shadow">Condiciones Javascript</h1>
+    <h1 class="drop-shadow">Condiciones Javascript</h1>
+
+    <div class="container-logo">
         <h3 class="drop-shadow">Parte 1</h3>
         <span class="drop-shadow">Haz click sobre la imagen</span>
         <img src="./assets/img/JavaScript-logo.png" alt="Logo">
+    </div>
+
+    <div class="container-stickers">
+        <h3 class="drop-shadow">Parte 2</h3>
+        <span class="drop-shadow">Puedes llevar hasta 10 stickers en total</span>
+        <div class="stickers-container">
+            <div class="sticker">
+                <img src="./assets/img/sticker1.png" alt="Sticker1">
+                <div class="wrapper-counter">
+                    <span class="minus">-</span>
+                    <input type="number" min="0" max="10" value="0" disabled="">
+                    <span class="plus">+</span>
+                </div>
+            </div>
+            <div class="sticker">
+                <img src="./assets/img/sticker2.png" alt="Sticker2">
+                <div class="wrapper-counter">
+                    <span class="minus">-</span>
+                    <input type="number" min="0" max="10" value="0" disabled="">
+                    <span class="plus">+</span>
+                </div>
+            </div>
+            <div class="sticker">
+                <img src="./assets/img/sticker3.png" alt="Sticker3">
+                <div class="wrapper-counter">
+                    <span class="minus">-</span>
+                    <input type="number" min="0" max="10" value="0" disabled="">
+                    <span class="plus">+</span>
+                </div>
+            </div>
+        </div>
+
+        <span id="message"></span>
+        <button class="validate" onclick="{validate()}">Verificar</button>
+
+
     </div>
 
 
