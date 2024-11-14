@@ -9,12 +9,15 @@
 <body>
     <h1 class="drop-shadow">Condiciones Javascript</h1>
 
+    <!-- Parte 1 - Imagen con borde -->
     <div class="container-logo">
         <h3 class="drop-shadow">Parte 1</h3>
         <span class="drop-shadow">Haz click sobre la imagen</span>
         <img src="./assets/img/JavaScript-logo.png" alt="Logo">
     </div>
 
+
+    <!-- Parte 2 - Contador de Stikers -->
     <div class="container-stickers">
         <h3 class="drop-shadow">Parte 2</h3>
         <span class="drop-shadow">Puedes llevar hasta 10 stickers en total</span>
@@ -49,6 +52,50 @@
         <button class="validate" onclick="{validate()}">Verificar</button>
 
 
+    </div>
+
+
+    <!-- Parte 3 - Password -->
+    <div class="password-container">
+        <h3 class="drop-shadow">Parte 3</h3>
+        <span class="drop-shadow">Ingrese la contraseña:</span>
+        <div class="password-select">
+            <select name="" id="digit1">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select name="" id="digit2">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                 <option value="5">5</option>
+                 <option value="6">6</option>
+                 <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+             </select>
+            <select name="" id="digit3">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+      </div>
+      <p id="passMessage"></p>
+      <button onclick="{validatePassword()}">Ingresar</button>
     </div>
 
 

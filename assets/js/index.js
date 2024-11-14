@@ -1,5 +1,4 @@
 // ---------------- Parte 1 - Logo con borde ---------------
-
 const logo = document.querySelector("img[alt='Logo']");
 
 logo.addEventListener("click", () => {
@@ -78,3 +77,23 @@ const validate = () => {
 
 
 // ------------ Parte 3 - Password --------------------
+const digit1 = document.getElementById("digit1"),
+digit2 = document.getElementById("digit2"),
+digit3 = document.getElementById("digit3"),
+passwordMessage = document.getElementById("passMessage");
+
+const validatePassword = () => {
+    let password = digit1.value + digit2.value + digit3.value;
+
+    if(password === "911") {
+        passwordMessage.style.color = "green";
+        passwordMessage.innerHTML = "<strong>Password 1 correcta</strong>";
+    } else if (password === "714") {
+        passwordMessage.style.color = "green";
+        passwordMessage.innerHTML = "<strong>Password 2 correcta</strong>";
+    } else {
+        passwordMessage.style.color = "red";
+        passwordMessage.innerHTML = `Password ${password} incorrecta`;
+    }
+
+}

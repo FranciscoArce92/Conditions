@@ -57,12 +57,12 @@ h1 {
 }
 
 .container-stickers {
-    height: 920px;
     width: 100%;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     border-top: 2px solid #333;
+    margin-bottom: 3rem;
 
     h3 {
         font-size: 2rem;
@@ -163,4 +163,59 @@ h1 {
         color: #fff;
         transition: 0.3s;
     }
+}
+
+.password-container {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    color: #fff;
+    border-top: 2px solid #333;
+
+    h3 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    span {
+        font-size: 1.7rem;
+        margin-bottom: 2rem;
+    }
+
+    .password-select {
+        width: 100%;
+        margin: 0 auto;
+
+        select {
+            width: 100px;
+            height: 30px;
+            text-align: center;
+            border: none;
+            border-radius: 5px;
+        }
+    }
+
+    button {
+        margin-top: 2rem;
+        font-size: 1.2rem;
+        border: 1px solid #000;
+        border-radius: 4rem;
+        padding: 5px 10px;
+        background: #fff;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background: #333;
+        color: #fff;
+        transition: 0.3s;
+    }
+
+    #passMessage {
+        margin-top: 1.2rem;
+        font-size: 1.5rem;
+    }
+
+
 }
