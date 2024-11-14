@@ -3,10 +3,10 @@
 ## Parte 1 - Imagen con borde al hacer click:
 
 > Imagen sin el borde:
->![image](https://github.com/user-attachments/assets/a31d06c5-a39e-4df5-a89a-f1131a49eac9)
+> - ![image](https://github.com/user-attachments/assets/a31d06c5-a39e-4df5-a89a-f1131a49eac9)
 >
 > Imagen con borde:
-> ![image](https://github.com/user-attachments/assets/51d98746-0789-41db-8737-a968d112fe0e)
+> - ![image](https://github.com/user-attachments/assets/51d98746-0789-41db-8737-a968d112fe0e)
 
 ## Parte 2 - Contador de stikers:
 > Al hacer click cuando no se seleccionaron stickers:
